@@ -1,11 +1,31 @@
 # **Practical Assessment**
-## **Lou Geh Manufacturing Company**
-Lou Geh manufacturing company produces products. The following product informationis stored: product name, product ID and quantity on hand. These products are madeup of many components. Each component can be supplied by one or more suppliers. Thefollowing component information is kept: component ID, name, description, suppliers who supply them, and products in which they are used.
+## **The Lou Geh Playlist**
 
-- A supplier can exist without providing components.
-- A component does not have to be associated with a supplier.
-- A component does not have to be associated with a product. Not all components are usedin products.
-- A product cannot exist without components.
+The the lou geh playlist stores details of a personal music library, and could be used to manage your MP3, CD, or vinyl collection. Because this database is for a personal collection, it’s relatively simple and stores only the relationships between artists, albums, and tracks. It ignores the requirements of many music genres, making it most useful for storing popular music and less useful for storing jazz or classical music.
+
+List of requirements for Lou geh Playlist
+
+- The collection consists of albums.
+- An album is made by exactly one artist.
+- An artist makes one or more albums.
+- An album contains one or more tracks
+- Artists, albums, and tracks each have a name.
+- Each track is on exactly one album.
+- Each track has a time length, measured in seconds.
+- When a track is played, the date and time the playback began (to the nearest second) should be recorded; this is used for reporting when a track was last played, as well as the number of times music by an artist, from an album, or a track has been played.
+
+Problems:
+
+- Create Process Flow (Swim lane) of the Current Process (manual process)
+- Create Process Flow (Swim lane) of the Proposed Process (system process)
+- Create Context Diagram
+- Create Dataflow Diagram
+- Create Use-case Diagram
+- Create Hierarchical Chart
+- Design Data Model
+- Create User Interface Design/ Prototype
+- Create Requirement Traceability Matrix(RTM)
+
 
 
 ## **Task**
@@ -20,8 +40,7 @@ Lou Geh manufacturing company produces products. The following product informati
    2. DFD
 4. Provide a ```README.md``` containing the setup guide.
 5. The application should be published in Github via forked repository and for final version of your prototype you will need to create a ```Pull request``` in Github .
-6. You will send the Github link to us thru our email devops@biotechfarms.com on or before ```September 18 2023```.
-7. Actual assessment interview will be conducted on ```September 19 2023 @ 2:00 PM```.
+6. You will send the Github link to us thru our email devops@biotechfarms.com on or before **16-02-2025** 12:00 PM
 
     ### **Directory structure**
     ```
